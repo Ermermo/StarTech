@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - StarTech</title>
+    <link rel="stylesheet" href="galstyles.css">
+    <link rel="icon" href="../arquivos/svgs/logo/logobranca.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="links">
+                <a href="../index.html" class="header-links">Membros</a>
+                <a href="#" class="header-links">Galeria</a>
+                <a href="../contate-nos/contato.html" class="header-links">Contate-nos</a>
+            </div>
+        </nav>
+        <button id="toggle-button" class="toggle-button"> 
+            <img id="toggle-icon" src="/arquivos/svgs/modes/sun-svgrepo-com.svg" alt="Modo Claro">
+        </button>
+    </header>
+    </button>
+    <section>
+        <article class="container">
+            <div class="gallery-container">
+                <h1>Galeria</h1>
+                <p>Abaixo temos uma galeria mostrando todos processos da construção do site</p>
+                <div class="gallery">
+                    <button class="nav-arrow left" onclick="prevImage()">&#9664;</button>
+                    <img id="gallery-image" src="/arquivos/galeriafotos/logotipofinal.png" alt="Processo de construção do site">
+                    <button class="nav-arrow right" onclick="nextImage()">&#9654;</button>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="conteudo-footer">
+            <div class="footer-texto">&copyStarTech | Todos Direitos Reservados</div>
+        </div>
+    </footer>
+    
+    
+    <script src="galscript.js"></script>
+</body>
+</html>
