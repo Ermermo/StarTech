@@ -23,7 +23,7 @@ O StarTech é um site institucional criado para apresentar a equipe por trás da
 
 ## Tecnologias Utilizadas
 
-* **Frontend:** [Liste as tecnologias utilizadas na parte visual do site, como HTML, CSS, JavaScript, React, Angular, etc.]
+* **Frontend:** HTML, CSS, JavaScript
 * **Backend:** [Liste as tecnologias utilizadas na parte lógica do site, como Node.js, Python, Django, etc.]
 * **Banco de dados:** [Liste o banco de dados utilizado, como MySQL, PostgreSQL, MongoDB, etc.]
 * **Outras:** [Liste outras tecnologias utilizadas, como ferramentas de build, versionamento, etc.]
