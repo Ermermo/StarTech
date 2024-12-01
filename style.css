@@ -897,7 +897,7 @@ footer{
 
 }
 
-@media(max-width: 425px){
+@media(max-width: 450px){
     
     .container{
         width: 400px;

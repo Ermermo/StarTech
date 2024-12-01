@@ -272,7 +272,7 @@ background-color: #fff;
 
 }
 
-@media(max-width: 425px){
+@media(max-width: 450px){
 
     body{
         display: flex;
