@@ -655,7 +655,7 @@ footer{
     to { opacity: 1; }
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1439px){
     main{
         display: flex;
         flex-direction: column;
@@ -665,6 +665,15 @@ footer{
 
     .container .conteudo-container{
         width: 800px;
+    }
+
+    .linha1{
+        width: 880px;
+        display: flex;
+        flex-direction: row;
+    
+        justify-content: space-between;
+        align-items: center;
     }
 
     .experiencia-escolaridade-bloco1{
@@ -682,6 +691,10 @@ footer{
         margin-top: 90px
     }
 
+    .linha3{
+        gap: 20px;
+    }
+
     .cv-projetos{
         height: 250px;
     }
@@ -691,7 +704,7 @@ footer{
     }
 }
 
-@media(max-width: 1024px){
+@media(max-width: 1199px){
 
     .container{
         height: 800px;

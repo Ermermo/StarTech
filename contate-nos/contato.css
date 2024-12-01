@@ -236,7 +236,7 @@ background-color: #fff;
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
-@media(max-width: 768px){
+@media(max-width: 1023px){
 
     #contatenos{
         width: 600px;
@@ -245,6 +245,8 @@ background-color: #fff;
     #into-formulario > input{
         max-width: 600px;
     }
+
+    
 
     .navbar{
         margin-top: 30px;
@@ -272,7 +274,7 @@ background-color: #fff;
 
 }
 
-@media(max-width: 450px){
+@media(max-width: 767px){
 
     body{
         display: flex;
