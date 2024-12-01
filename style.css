@@ -471,8 +471,6 @@ ul li.item-menu a .txt-link{
 #titulo-conclusao{
     font-size: 60px;
     font-weight: 600;
-
-
 }
 
 .paragrafos-conclusao{
@@ -662,6 +660,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .container .conteudo-container{
@@ -895,5 +894,210 @@ footer{
         display: flex; 
         align-items: center;
     }
+
+}
+
+@media(max-width: 425px){
+    
+    .container{
+        width: 400px;
+        height: 1000px;
+    }
+
+    .container .conteudo-container{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar{
+        margin-top: 30px;
+        border-radius: 90px;
+        background-color: #22333b;
+        width: 300px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .navbar a{
+        color: white;
+        position: relative;
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    #conteudo-startech{
+        color: #648767;
+        font-weight: 500;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    #texto-startech{
+        color: #22333b;
+        font-weight: 500;
+    
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .arraste-para-cima{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .arraste-para-cima #texto-arraste{
+        font-size: 0px;
+        font-weight: 0;
+    }
+    
+    .arraste-para-cima #svg-arraste{
+        width: 0px;
+    }
+
+    .descricao-membro{
+        position: relative;
+        top: 20px;
+        width: 90%;
+        max-height: 170px;
+    
+        text-align: left;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .linha1{
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+    
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .titulo-container{
+        font-size: 30px;
+    }
+
+    .linha2{
+        width: 400px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linha2-1{
+        display: flex;
+        flex-direction: column;
+    
+        width: 400px;
+        align-items: center;
+    }
+
+    .skills{
+        margin-top: 40px
+    }
+
+    .skill-texto{
+        width: 0px;
+    }
+    
+    .skill-texto1{
+        font-size: 0px;
+    }
+    
+    .skill-texto2{
+        font-size: 0px;
+    }
+
+    .linha3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .experiencia-escolaridade-bloco1{
+        width: 180px;
+        height: 140px;
+        font-size: 11px;
+    }
+
+    .experiencia-escolaridade-bloco1-texto{
+        width: 160px;
+        height: 100px;
+    }
+
+    .cv-projetos{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    
+        width: auto;
+        height: auto;
+    }
+
+    #container8{
+        height: 700px;
+    }
+    #conteudo-conclusao{
+        height: 400px;
+        margin-top: 40px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #titulo-conclusao{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .paragrafos-conclusao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .paragrafos-conlcusao1{
+        font-size: 15px;
+    }
+
+    .toggle-button { 
+        position: fixed;
+        right: 15px;
+        top: 42px;
+    
+        float: right; 
+        background: none; 
+        border: none; 
+        cursor: pointer; 
+        display: flex; 
+        align-items: center;
+    }
+
+    #toggle-icon { 
+        width: 25px; 
+        height: 25px;
+    }
+    
+    .footer-texto{
+        font-size: 80%;
+    }
+    
 
 }

@@ -124,7 +124,7 @@ footer{
     color: white;
 }
 
-input{
+#into-formulario > input{
     padding: 5px;
     margin-bottom: 15px;
     border: none;
@@ -134,7 +134,7 @@ input{
     padding: 10px;
 }
 
-input:focus {
+#into-formulario > input:focus {
     outline: none;
 }
 
@@ -235,3 +235,139 @@ background-color: #fff;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+@media(max-width: 768px){
+
+    #contatenos{
+        width: 600px;
+    }
+
+    #into-formulario > input{
+        max-width: 600px;
+    }
+
+    .navbar{
+        margin-top: 30px;
+        border-radius: 90px;
+        background-color: #22333b;
+        width: 600px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .toggle-button { 
+        position: fixed;
+        right: 40px;
+        top: 40px;
+    
+        float: right; 
+        background: none; 
+        border: none; 
+        cursor: pointer; 
+        display: flex; 
+        align-items: center;
+    }
+
+}
+
+@media(max-width: 425px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container1{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .conteudo-container{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        display: flex;
+        align-items: start;
+    
+        gap: 10px;
+    }
+
+    .navbar{
+        margin-top: 30px;
+        border-radius: 90px;
+        background-color: #22333b;
+        width: 300px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header{
+        width: 300px;
+    }
+
+    header .navbar a{
+        color: white;
+        position: relative;
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .toggle-button { 
+        position: absolute;
+    
+        float: right; 
+        background: none; 
+        border: none; 
+        cursor: pointer; 
+        display: flex; 
+        align-items: center;
+    }
+
+    #toggle-icon { 
+        width: 25px; 
+        height: 25px;
+    }
+
+    #contatenos{
+        width: 400px;
+    }
+
+    #into-formulario > input{
+        max-width: 400px;
+    }
+
+    .navbar{
+        margin-top: 30px;
+        border-radius: 90px;
+        background-color: #22333b;
+        width: 400px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .toggle-button { 
+        position: fixed;
+        right: 40px;
+        top: 40px;
+    
+        float: right; 
+        background: none; 
+        border: none; 
+        cursor: pointer; 
+        display: flex; 
+        align-items: center;
+    }
+}
