@@ -29,17 +29,3 @@ window.onload = function() {
 };
 
 // xxxxxxxxxxxxxxxxxxxxxxxxx
-
-
-const light = document.createElement('div');
-light.classList.add('light');
-document.body.appendChild(light);
-
-
-function moveLight(event) {
-  light.style.left = event.clientX + 'px';
-  light.style.top = event.clientY + 'px';
-}
-
-
-document.addEventListener('mousemove', moveLight);

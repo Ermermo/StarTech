@@ -11,7 +11,6 @@
 body{
     background-color: #fff ;
     color: #22333b;
-    cursor: none;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
@@ -43,7 +42,6 @@ header .navbar a{
     margin: 0 20px;
     font-size: 20px;
     font-weight: 400;
-    cursor: none;
 }
 
 .navbar a::after{
@@ -162,7 +160,6 @@ input:focus {
 }
 
 #enviar-mensagem:hover{
-    cursor: none;
     transform: scale(1.10) skewx(-15deg);
 }
 
@@ -238,12 +235,3 @@ background-color: #fff;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-.light {
-    position: fixed;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #22333b;
-    pointer-events: none; /* Para não interferir em outros elementos */
-}

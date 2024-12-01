@@ -241,3 +241,19 @@ footer{
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+@media(max-width: 768px){
+    
+    .navbar{
+        margin-top: 30px;
+        border-radius: 90px;
+        background-color: #22333b;
+        width: 600px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
